@@ -15,6 +15,7 @@ class SingleBook extends Component {
                 ? '3px solid red'
                 : 'none',
           }}
+          data-testid="book-card"
         > 
           <Card.Img variant="top" src={this.props.book.img} /> 
           <Card.Body>
